@@ -24,11 +24,29 @@
     opacity: 0;
 } */
 .carousel-caption{
-background: linear-gradient(90deg, rgba(66,66,69,1) 63%, rgba(0,0,0,1) 100%);
-    opacity: 0.5;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        transparent 
+      );
+    
     width:100%;
     left:0;
     bottom:0;
+    height:40vh;
+}
+p{
+    margin-top: 2rem;
+}
+
+h5{
+    font-size: xx-large;
+    width:60%
+}
+.text-left{
+    padding-left:10%;
 }
 span{
     font-size:14px;;
@@ -47,6 +65,8 @@ span{
         flex-direction: column;
         display:inline;
     }
-
+    .img-size{
+        height: 107vh;
+    }
     
 }
