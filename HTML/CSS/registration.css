@@ -17,21 +17,23 @@
     opacity: 0%;
 }
 .carousel-caption{
-    / background: rgb(66,66,69); /
-    / background: linear-gradient(90deg, rgba(66,66,69,1) 63%, rgba(0,0,0,1) 100%); /
-    opacity: 1;
+    background: rgb(66,66,69);
+    background: linear-gradient(90deg, rgba(66,66,69,1) 63%, rgba(0,0,0,1) 100%);
+    opacity:0.5;
     width: 100%;
     left: 0;
     bottom: 0;
 
 }
 .text1{
-    / font-weight: bolder; /
+    font-weight: bolder;
     font-size: xx-large;
 }
 .email-span{
     font-size: 14px;
 }
-@media screen and (min-width:992px) and (max-width:1500px) {
-    
+@media screen and (min-width:992px) and (max-width:1400px) {
+    .img-size{
+        height: 107vh;
+    }
 }
